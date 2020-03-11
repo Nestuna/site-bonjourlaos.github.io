@@ -1,0 +1,149 @@
+                /* GENERAL */
+                * {
+                    margin:0;
+                    padding:0;
+                    /* border: 1px solid black;  */
+                }
+                body
+                {
+                    font-family: Roboto;
+                    background: #eceff7;
+                }
+                #corps
+                {
+                    background-color: rgb(247, 250, 255);
+                    width: 942px;
+                    height: 100%;
+                    margin: 0 auto;
+                    border: 1px solid #cad6e2;
+                    box-shadow: 0 0 5px rgb(184, 187, 204);
+                }
+
+
+                .clear {
+                    clear:both;
+                }
+                hr
+                {
+                    background-color: #3b4652; 
+                    /* color: #3b4652; */
+                    border: 1px;
+                    height: 1px;
+                    margin: 0 10px;
+                    
+                }
+                
+                    /* Texte */
+                a {
+                    text-decoration: none;
+                }
+                ul {
+                    list-style: none;
+                }
+                h1, h2, h3, h4
+                {
+                    font-family: 'Oswald';
+                    color: #3b4652;
+                }
+                h2
+                {
+                    font-size: 30px
+                }
+                h3
+                {
+                    font-size: 17px;
+                }
+
+                
+                
+
+                
+                /* Code CSS DU FOOTER, les lignes CSS du dessus sont celles de Nicolas et vous les avez déjà dans "main_nico.css" normalement***************************************************************************************************************************************************************************/
+
+                #pied { /* Bloc du pied de page */
+                clear:both;
+                background-color: #012f5e;
+                height: 23em;
+                color: white;
+                }
+                
+                #pied p {
+                margin-bottom: 1px;
+                }
+
+                #pied ul li a:hover{
+                    height: 75px;
+                    width: 75px;
+                }
+
+                #pied ul li{
+                    display: inline;
+                }
+
+                #logo1{
+                margin:3px;
+                margin-left: 50%;
+                float:left;
+                } 
+            
+                #logo2{
+                    margin:3px;
+                    float:left;
+                    } 
+                #logo3{
+                    margin:3px;
+                    float:right;
+                    }
+                #logo4{
+                    margin:3px;
+                    float:right;
+                    }
+                #logo5{
+                    margin:3px;
+                    float:center;
+                    }
+            .img{
+                width: 50px;
+                height: 50px;
+            }
+            .img:hover{
+                width: 60px;
+                height: 60px;
+            }
+            #donnation{
+                height: 65px;
+                width: 150px;
+                float: left;
+            }
+            
+            #donnation:hover{
+                height: 75px;
+                width: 175px;
+            }
+            
+            .paiement{
+                height: 25px;
+                width: 150px;
+            }
+            
+            .Footer_social_networks{
+                color: white;
+                display: inline-block;
+                text-align: center;
+                margin-left: 15%;
+            }
+ 
+        #pied { /* Bloc du pied de page */
+        clear:both;
+        background-color: rgb(25, 72, 117);
+        height: 25em;/* Pour régler la Hauteur du Footer */
+        }
+        h4{
+            font-size: 15px;
+        }
+
+        #pied h4{
+            color: white;
+        }
+                
+                /* FOOTER */

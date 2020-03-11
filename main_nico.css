@@ -1,0 +1,236 @@
+                /* GENERAL */
+* {
+    margin:0;
+    padding:0;
+    /* border: 1px solid black;  */
+}
+body
+{
+    font-family: Roboto;
+    font-style: light;
+    background: #eceff7;
+}
+
+
+#corps
+{
+    background-color: rgb(247, 250, 255);
+    width: 942px;
+    height: 100%;
+    margin: 0 auto;
+    border: 1px solid #cad6e2;
+    box-shadow: 0 0 5px rgb(184, 187, 204);
+}
+#contenu
+{
+    width:920px;
+    margin: 0 auto;
+    /* border: 1px solid grey; */
+}
+.clear {
+    clear:both;
+}
+hr
+{
+    background-color: #3b4652; 
+    /* color: #3b4652; */
+    border: 1px;
+    height: 1px;
+    margin: 0 0;
+    margin-bottom: 10px;
+}
+
+    /* Texte */
+a {
+    text-decoration: none;
+}
+.paragraphe {
+    width: 880px;
+    margin:0 auto;
+    font-family:Roboto;
+    font-size: 16px;
+    text-align: justify;
+}
+ul {
+    list-style: none;
+}
+h1, h2, h3
+{
+    font-family: 'Oswald';
+    color: #3b4652;
+}
+h2
+{
+    font-size: 30px;
+}
+h3
+{
+    font-size: 17px;
+}
+
+.rouge 
+{
+    color: rgb(201, 73, 73);
+}
+
+                /* HEADER */
+#banner h1 {
+    font-family: 'Crete Round';
+    font-size: 40px;
+    color: rgb(49, 51, 80);
+    padding: 20px 0 0 20px;
+    margin: 30px 100px;
+    width: 150px;
+}
+#banner #logo
+{
+    background-color: rgb(201, 73, 73);
+    width: 100px;
+    margin-left: 300px;
+}
+
+
+header {
+    height: 0px;
+}
+header nav {
+    height: 60px;
+    background: #012f5e;
+    text-align:center;
+}
+header nav ul {
+    margin: 40px 0 0 60px; 
+    padding-top: 20px;
+}
+header nav ul li {
+    /* display: inline-block; #le float fait le boulot */
+    float: left; 
+    margin-right: 30px;
+    padding-right: 10px;
+    text-transform: uppercase;
+    border-right: solid 1px #fff;
+}
+header nav ul li a {
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+header nav ul li a:hover
+{
+    /* color:#a4cfdd; */
+    color:#b8c2db;
+}
+
+
+                /* CONTENU */
+    /* EN TRAVAUX */
+#travaux
+{
+    width: 920px;
+    height: 400px;
+    margin: 40px auto;
+    padding: 0 0;
+}
+
+#travaux p
+{
+    margin: 30px 30px;
+    padding-left: 220px;
+    height: 200px;
+    font-size:20px;
+    font-family: Oswald;
+    background:
+        url('Images/travaux.png')
+        no-repeat
+        top left;
+    background-size: 200px 200px;
+}
+
+
+/* FOOTER */
+#pied { /* Bloc du pied de page */
+    clear:both;
+    background-color: #012f5e;
+    height: 23em;
+    color: white;
+    }
+    
+#pied p {
+    margin-bottom: 1px;
+}
+
+#pied ul li a:hover{
+    height: 75px;
+    width: 75px;
+}
+
+#pied ul li{
+    display: inline;
+}
+
+#logo1{
+    margin:3px;
+    margin-left: 50%;
+    float:left;
+} 
+
+#logo2{
+    margin:3px;
+    float:left;
+    } 
+#logo3{
+    margin:3px;
+    float:right;
+    }
+#logo4{
+    margin:3px;
+    float:right;
+    }
+#logo5{
+    margin:3px;
+    float:center;
+    }
+.img{
+    width: 50px;
+    height: 50px;
+}
+.img:hover{
+    width: 60px;
+    height: 60px;
+}
+#donnation{
+    height: 65px;
+    width: 150px;
+    float: left;
+}
+
+#donnation:hover{
+    height: 75px;
+    width: 175px;
+}
+
+.paiement{
+    height: 25px;
+    width: 150px;
+}
+
+.Footer_social_networks{
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin-left: 15%;
+}
+
+#pied { /* Bloc du pied de page */
+    clear:both;
+    background-color: rgb(25, 72, 117);
+    height: 25em;/* Pour régler la Hauteur du Footer */
+    margin-top:75px;
+}
+h4{
+    font-size: 15px;
+}
+
+#pied h4{
+    color: white;
+}

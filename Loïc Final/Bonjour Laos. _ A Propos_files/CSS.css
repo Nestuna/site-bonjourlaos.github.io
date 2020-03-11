@@ -1,0 +1,343 @@
+/* PAGE ATELIERS */
+
+.infos{
+    font-size: 50px;
+    color: rgba(255,255,255,0.90);
+    font-family: 'Oswald';
+    color: #3b4652;
+    margin-left: 15px;
+    
+}
+
+.titre {
+    font-size:75px;
+    color: rgb(25, 72, 117);
+    font-weight: bold;
+    }
+
+
+#contenu p strong {
+    color: #3b4652;
+}
+
+#pied p {
+margin-bottom: 1px;
+}
+
+#pied ul li a:hover{
+    height: 75px;
+    width: 75px;
+}
+
+#pied ul li{
+    display: inline;
+}
+
+#logo1{
+margin:3px;
+margin-left: 50%;
+float:left;
+} 
+
+#logo2{
+    margin:3px;
+    float:left;
+    } 
+#logo3{
+    margin:3px;
+    float:right;
+    }
+#logo4{
+    margin:3px;
+    float:right;
+    }
+#logo5{
+    margin:3px;
+    float:center;
+    }
+.img{
+width: 50px;
+height: 50px;
+}
+.img:hover{
+width: 60px;
+height: 60px;
+}
+
+.img_ateliers
+{
+    background-repeat: no-repeat;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    /* border: 1px solid #7b7f83; */
+    box-shadow: 0 0 5px rgb(149, 152, 167);
+    margin: 10px auto;
+}
+.img_ateliers:hover
+{
+    width:160px;
+    height: 160px;
+    transition:0.5s;
+}
+#langue
+{
+    background-image: url('Images/Ateliers/langue.png');
+    background-size: 175px 175px;
+    background-position: top;
+}
+#danse
+{
+    background-image: url('Images/Ateliers/danse.jpeg');
+    background-size: 275px 183px;
+    background-position: top;
+}
+#chant
+{
+    background-image: url('Images/Ateliers/chant_tradi.png');
+    background-size: 300px 175px;
+    background-position: top;
+
+}
+#musique
+{
+    background-image: url('Images/Ateliers/musique.png');
+    background-size: 325px 175px;
+}
+
+#donnation{
+height: 65px;
+width: 150px;
+float: left;
+}
+
+#donnation:hover{
+height: 75px;
+width: 175px;
+}
+
+.paiement{
+height: 25px;
+width: 150px;
+}
+
+.Footer_social_networks{
+color: white;
+display: inline-block;
+text-align: center;
+margin-left: 15%;
+margin-bottom: 2%;
+}
+
+#Ateliers_barre_vert_gauhe{
+border-left: 1px solid black;
+}
+
+.atelier_content{
+width: 100%;
+height: 100%;
+}
+.atelier_content_lvl2{
+width: 100%;
+height: auto;
+vertical-align: top;
+padding: 1%;
+text-align: justify;
+
+}
+
+.atelier_content_lvl2 p{
+margin-left: 20px;
+margin-right: 25px;
+
+}
+.atelier_content_lvl2 ol{
+margin-left: 65px;
+
+}
+
+.atelier_content_lvl2 strong{
+font-size: 18px;
+color: rgba(255,255,255,0.90);
+font-family: 'Oswald';
+color: #3b4652;
+
+}
+
+/* .illustration{
+
+
+border-radius: 100px;
+width: 150px;
+height: 150px;
+
+
+-webkit-transform: scale(1);
+transform: scale(1);
+-webkit-transition: .3s ease-in-out;
+transition: 0.7s ease-in-out;
+}
+
+.illustration:hover{
+-webkit-transform: scale(1.20);
+transform: scale(1.20);
+} */
+
+#pied { /* Bloc du pied de page */
+clear:both;
+background-color: rgb(25, 72, 117);
+height: auto;
+color: white;
+}
+#pied h4{
+    color: white;
+}
+
+.img_event{
+
+float: left;
+width: 100px;
+height: 100px;
+
+}
+
+.atelier_content_lvl2 h2{
+margin-left: 100px;
+text-decoration: underline;
+}
+
+.img_cuisine img{
+width: 350px;
+height: 250px;
+margin-left: 50px;
+border: 1px solid grey;
+display: inline-block;
+text-align: center;     
+}
+
+.atelier_content h3{
+font-size: 30px;
+margin-left: 10px;
+}
+
+
+
+/* *{box-sizing: border-box } */
+
+img{
+
+max-width:100%
+
+}
+
+
+.slideshow{
+
+border: 5px solid white;
+box-shadow: 0 0 5px hsla(0,0%,0%,.5);
+overflow: hidden;
+max-width: 600px;
+margin: 2rem auto;
+position: relative
+
+}
+
+.slideshow ul{
+
+padding-bottom: 66.67%;/* ratio pour le responsive */
+margin: 0;
+list-style-type: none;
+position: relative
+
+}
+
+
+.slideshow li{
+
+top: 0;
+left: 0;
+animation: slideshow 25s ease infinite;
+position: absolute;
+opacity: 0;
+
+
+}
+
+.slideshow li:nth-child(2){
+
+animation-delay: 5s
+
+}
+
+.slideshow li:nth-child(3){
+
+animation-delay: 10s
+
+}
+
+.slideshow li:nth-child(4){
+
+animation-delay: 15s
+
+}
+
+.slideshow li:nth-child(5){
+
+animation-delay: 20s
+
+}
+
+
+@keyframes slideshow{
+
+0%{opacity: 0}
+
+10%{opacity: 1}
+
+20%{opacity: 1}
+
+25%{opacity: 0}
+
+100%{opacity: 0}
+
+}
+
+
+.slideshow span{
+
+background: rgba(0,0,0,0.7);
+height: 40px;
+align-items: center;
+justify-content: center;
+display: flex;
+color: white;
+position: absolute;
+bottom: 0;
+right: 0;
+left: 0
+
+}
+
+
+
+.img_content_ateliers{
+    width: 175px;
+    height: 125px;
+    margin:3px 6px 3px 5px ;
+    float: left;
+}
+
+
+.apropos_align{
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#contenu p strong {
+    font-size: 18px;
+    color: rgba(255,255,255,0.90);
+    font-family: 'Oswald';
+    color: #3b4652;
+}
+
+            /* FOOTER */
